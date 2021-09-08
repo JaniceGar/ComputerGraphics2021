@@ -3,10 +3,12 @@
 #include <math.h>
 int main()
 {
- 	int opcion, v, c;
+ 	int opcion;
 	FILE *archivo;
 	char caracteres[100]; 
-	
+	int v;
+	int c;
+	int tot = v*c;
 	printf("Welcome\n Choose an option\n ");
 	printf("\n 1. Read the teacher's file\n Warning: It takes its time'\n");
 	printf("\n 2. Read Cubo.obj \n ");
@@ -53,12 +55,14 @@ int main()
 			        }
 			        fclose(archivo);
 		case 3: 
+				
 				printf("\n Write the vertexes number: ");
 				scanf("%d",&v);
 				printf("\n Write the faces number: ");
 				scanf("%d",&c);
-				int tot = v*c;
+				//int tot = v*c;
 				printf("\n Totally lines to draw: %d",&tot);
+				
 	}
 	while (opcion !=3);
 	return 0;
