@@ -54,6 +54,7 @@ int main()
 			            system("PAUSE");
 			        }
 			        fclose(archivo);
+			    return 0;
 		case 3: 
 				
 				printf("\n Write the vertexes number: ");
@@ -62,6 +63,7 @@ int main()
 				scanf("%d",&c);
 				//int tot = v*c;
 				printf("\n Totally lines to draw: %d",&tot);
+				return 0;
 				
 	}
 	while (opcion !=3);
