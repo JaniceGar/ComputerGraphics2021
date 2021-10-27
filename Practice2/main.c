@@ -9,6 +9,8 @@ int main()
 	int v;
 	int c;
 	int tot = v*c;
+	printf("Practice 2: We have to read an obj file and obtain the values, then create a ppm image \n ");
+	
 	printf("Welcome\n Choose an option\n ");
 	printf("\n 1. Read the teacher's file\n Warning: It takes its time'\n");
 	printf("\n 2. Read Cubo.obj \n ");
