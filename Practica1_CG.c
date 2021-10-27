@@ -4,13 +4,15 @@
 //Garcia Samperio Janice Amairani
 
 int main(void){
-	
+	printf("In this practices we have to  create a table\n \n");
+	printf("Creamos una tabla de 7x2\n \n");
 	int tabla[7][2];
 	
 	printf("Enter the values for x, y\n\n");
-	for (int i=0; i<7; i++)
+	int i, j;
+	for ( i=0; i<7; i++)
 	{
-		for (int j= 0; j<2; j++)
+		for ( j= 0; j<2; j++)
 		{
 		
 		printf("Element [x%d, y%d]: ", i, j);
@@ -19,9 +21,9 @@ int main(void){
 }
 	printf("\n\n Elements in the table\n\n");
 	
-		for (int i=0; i<7; i++)
+		for ( i=0; i<7; i++)
 	{
-		for (int j= 0; j<2; j++){
+		for ( j= 0; j<2; j++){
 		
 		printf("%d  ", tabla[i][j]);
 	
