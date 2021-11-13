@@ -21,7 +21,7 @@ int main()
 {
    int gd = DETECT, gm;
 
-   initgraph(&gd, &gm, "C:\\TC\\BGI");
+   initgraph(&gd, &gm, "C:\\Users\\yanis\\Documents\\turbo-c\\BGI");
        
    getch();
    closegraph();
