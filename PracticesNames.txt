@@ -1,0 +1,6 @@
+Practice 0: Write a table
+Practice 1: Drawing Lines Algorithms
+Practice 2: obj to ppm 
+Practise 3: Tranformation Matrix  (rotation, traslation, scalling)
+Practise 4: Animation 
+Practise 5: List vertixes, face hidding, scanline algorithm, Zbuffer, Ambient light, Material definition, Phong and Goroughnd

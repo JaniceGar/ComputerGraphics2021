@@ -2,7 +2,7 @@
 
 int main(){
 	int ancho,alto; //variables para las dimesiones de la imagen 
-	printf("Dame los valores del ancho y el alto de la imagen");
+	printf("Dame los valores del ancho y el alto de la imagen\n \n Separalo con un espacio\n \n");
 	scanf("%d %d", &ancho, &alto);
 	
 	//empezamos el encbezado del ppm
