@@ -15,6 +15,8 @@ void naiveDrawLine(x1, x2, y1, y2)
       print(x, y); 
    }
 }*/
+
+//pruebas por que no compila
 #include<graphics.h>
 #include<conio.h>
 int main()
