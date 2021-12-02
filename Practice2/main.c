@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+
+//i have no idea why this doesn't work anymore
+// i know this is no correct, but is not as ihave changed something
 int main()
 {
  	int opcion;
@@ -20,6 +23,7 @@ int main()
 	
 	switch (opcion){
 		case 1: 
+		/*
 				//FILE *archivo;
 			 	
 			 	//char caracteres[100];
@@ -40,6 +44,7 @@ int main()
 			        }
 			        fclose(archivo);
 				return 0;
+				*/
 		case 2:
 				archivo = fopen("cubo.obj","r");
 			 	
