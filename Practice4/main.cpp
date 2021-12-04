@@ -22,4 +22,14 @@ void animacion (void){
 }
 
 
+int main (int argc, char *argv[]){
+	initwindow(400,400,"Kirby",400,250);
+	setcolor(15); 
+	cleardevice():
+		while (!kbhit()){
+			animacion();
+		}
+		getch();
+}
+
 
