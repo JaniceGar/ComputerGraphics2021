@@ -4,6 +4,9 @@
 #include <windows.h>
 using namespace std;
 
+//trying to make a funny kirby image
+
+
 void animacion (void){
 	readimagefile("0-0000.jpg", 40,40,10,120);
 	sleep(50);
