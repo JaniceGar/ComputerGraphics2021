@@ -9,8 +9,7 @@ int main()
  	int opcion;
 	FILE *archivo;
 	char caracteres[100]; 
-	int v;
-	int c;
+	int v, c;
 	int tot = v*c;
 	printf("Practice 2: We have to read an obj file and obtain the values, then create a ppm image \n ");
 	
@@ -23,10 +22,6 @@ int main()
 	
 	switch (opcion){
 		case 1: 
-		/*
-				//FILE *archivo;
-			 	
-			 	//char caracteres[100];
 			 	printf("\n Actually it is not the teacher's file, that was super heavy. \n I couldn't upload it to github' \n This is another file \n ");
 			 	archivo = fopen("BOTTLE MID POLY.obj","r");
 			 	
@@ -44,7 +39,7 @@ int main()
 			        }
 			        fclose(archivo);
 				return 0;
-				*/
+				
 		case 2:
 				archivo = fopen("cubo.obj","r");
 			 	
@@ -68,8 +63,8 @@ int main()
 				scanf("%d",&v);
 				printf("\n Write the faces number: ");
 				scanf("%d",&c);
-				//int tot = v*c;
-				printf("\n Totally lines to draw: %d",&tot);
+				int tot = v*c;
+				printf("\n Totally lines to draw: %d",tot);
 				return 0;
 				
 	}
